@@ -24,3 +24,10 @@ Etapas para publicação de uma imagem no repositório do Docker Hub a partir do
 3.	Clique no botão Publish
 4.	Será exibida uma janela (Container Registry) solicitando as credenciais para acesso ao Docker Hub
 5.	Entre com as credenciais e verifique no Docker Hub se a imagem consta no repositório.
+
+Etapas para publicação do container no Azure
+1.	Crie um novo recurso no Azure.
+2.	Na configuração do container, selecione Docker Hub e acesso público (como configurado no Docker Hub)
+3.	Insira sua imagem no campo obrigatório (repositóriodockerhub/projetodockerhub)
+4.	Clique em Ok e Criar
+5.	Vá em Overview/Visão geral e acesse a URL do aplicativo
