@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  apiprodutos:
+    image: apiprodutos
+    build:
+      context: ./APIProdutos
+      dockerfile: Dockerfile
